@@ -1,0 +1,55 @@
+[0.644s] Invoking command in '/home/look/ros2_ws/build/dual_arm_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/look/ros2_ws/build/dual_arm_demo/build
+[0.877s] running develop
+[1.048s] Removing /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual-arm-demo.egg-link (link to .)
+[1.070s] Invoked command in '/home/look/ros2_ws/build/dual_arm_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/look/ros2_ws/build/dual_arm_demo/build
+[1.071s] Invoking command in '/home/look/ros2_ws/src/dual_arm_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_arm_demo build --build-base /home/look/ros2_ws/build/dual_arm_demo/build install --record /home/look/ros2_ws/build/dual_arm_demo/install.log --single-version-externally-managed install_data --force
+[1.270s] running egg_info
+[1.285s] writing ../../build/dual_arm_demo/dual_arm_demo.egg-info/PKG-INFO
+[1.285s] writing dependency_links to ../../build/dual_arm_demo/dual_arm_demo.egg-info/dependency_links.txt
+[1.285s] writing entry points to ../../build/dual_arm_demo/dual_arm_demo.egg-info/entry_points.txt
+[1.285s] writing requirements to ../../build/dual_arm_demo/dual_arm_demo.egg-info/requires.txt
+[1.285s] writing top-level names to ../../build/dual_arm_demo/dual_arm_demo.egg-info/top_level.txt
+[1.316s] reading manifest file '../../build/dual_arm_demo/dual_arm_demo.egg-info/SOURCES.txt'
+[1.316s] writing manifest file '../../build/dual_arm_demo/dual_arm_demo.egg-info/SOURCES.txt'
+[1.317s] running build
+[1.317s] running build_py
+[1.317s] copying dual_arm_demo/dual_arm_controller.py -> /home/look/ros2_ws/build/dual_arm_demo/build/lib/dual_arm_demo
+[1.317s] copying dual_arm_demo/dual_arm_publisher.py -> /home/look/ros2_ws/build/dual_arm_demo/build/lib/dual_arm_demo
+[1.317s] running install
+[1.322s] running install_lib
+[1.337s] creating /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo
+[1.337s] copying /home/look/ros2_ws/build/dual_arm_demo/build/lib/dual_arm_demo/dual_arm_controller.py -> /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo
+[1.337s] copying /home/look/ros2_ws/build/dual_arm_demo/build/lib/dual_arm_demo/__init__.py -> /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo
+[1.337s] copying /home/look/ros2_ws/build/dual_arm_demo/build/lib/dual_arm_demo/dual_arm_publisher.py -> /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo
+[1.337s] byte-compiling /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo/dual_arm_controller.py to dual_arm_controller.cpython-312.pyc
+[1.338s] byte-compiling /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo/__init__.py to __init__.cpython-312.pyc
+[1.338s] byte-compiling /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo/dual_arm_publisher.py to dual_arm_publisher.cpython-312.pyc
+[1.339s] running install_data
+[1.339s] copying resource/dual_arm_demo -> /home/look/ros2_ws/install/dual_arm_demo/share/ament_index/resource_index/packages
+[1.339s] copying package.xml -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo
+[1.339s] copying launch/dual_arm_rviz.launch.py -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/launch
+[1.339s] copying urdf/marvin_m6_l.urdf -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/urdf
+[1.339s] copying urdf/marvin_m6_r.urdf -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/urdf
+[1.339s] copying meshes/left_arm/Base_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.340s] copying meshes/left_arm/Link1_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.340s] copying meshes/left_arm/Link2_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.341s] copying meshes/left_arm/Link3_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.342s] copying meshes/left_arm/Link4_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.343s] copying meshes/left_arm/Link5_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.344s] copying meshes/left_arm/Link6_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.344s] copying meshes/left_arm/Link7_L.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/left_arm
+[1.347s] copying meshes/right_arm/Base_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.347s] copying meshes/right_arm/Link1_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.347s] copying meshes/right_arm/Link2_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.349s] copying meshes/right_arm/Link3_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.349s] copying meshes/right_arm/Link4_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.350s] copying meshes/right_arm/Link5_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.351s] copying meshes/right_arm/Link6_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.352s] copying meshes/right_arm/Link7_R.STL -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/meshes/right_arm
+[1.354s] running install_egg_info
+[1.371s] Copying ../../build/dual_arm_demo/dual_arm_demo.egg-info to /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo-0.0.0-py3.12.egg-info
+[1.372s] running install_scripts
+[1.476s] Installing dual_arm_controller script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.476s] Installing dual_arm_publisher script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.476s] writing list of installed files to '/home/look/ros2_ws/build/dual_arm_demo/install.log'
+[1.496s] Invoked command in '/home/look/ros2_ws/src/dual_arm_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_arm_demo build --build-base /home/look/ros2_ws/build/dual_arm_demo/build install --record /home/look/ros2_ws/build/dual_arm_demo/install.log --single-version-externally-managed install_data --force

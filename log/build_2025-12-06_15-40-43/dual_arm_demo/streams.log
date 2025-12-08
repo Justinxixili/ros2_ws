@@ -1,0 +1,17 @@
+[0.695s] Invoking command in '/home/look/ros2_ws/build/dual_arm_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/look/ros2_ws/build/dual_arm_demo/build --no-deps symlink_data
+[0.938s] running develop
+[1.095s] running egg_info
+[1.110s] writing dual_arm_demo.egg-info/PKG-INFO
+[1.110s] writing dependency_links to dual_arm_demo.egg-info/dependency_links.txt
+[1.110s] writing entry points to dual_arm_demo.egg-info/entry_points.txt
+[1.110s] writing requirements to dual_arm_demo.egg-info/requires.txt
+[1.110s] writing top-level names to dual_arm_demo.egg-info/top_level.txt
+[1.141s] reading manifest file 'dual_arm_demo.egg-info/SOURCES.txt'
+[1.142s] writing manifest file 'dual_arm_demo.egg-info/SOURCES.txt'
+[1.158s] running build_ext
+[1.158s] Creating /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual-arm-demo.egg-link (link to .)
+[1.158s] Installing dual_arm_publisher script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.158s] 
+[1.159s] Installed /home/look/ros2_ws/build/dual_arm_demo
+[1.159s] running symlink_data
+[1.186s] Invoked command in '/home/look/ros2_ws/build/dual_arm_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/look/ros2_ws/build/dual_arm_demo/build --no-deps symlink_data

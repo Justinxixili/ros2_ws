@@ -1,0 +1,25 @@
+[0.772s] Invoking command in '/home/look/ros2_ws/src/dual_arm_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_arm_demo build --build-base /home/look/ros2_ws/build/dual_arm_demo/build install --record /home/look/ros2_ws/build/dual_arm_demo/install.log --single-version-externally-managed install_data
+[0.975s] running egg_info
+[0.991s] writing ../../build/dual_arm_demo/dual_arm_demo.egg-info/PKG-INFO
+[0.991s] writing dependency_links to ../../build/dual_arm_demo/dual_arm_demo.egg-info/dependency_links.txt
+[0.991s] writing entry points to ../../build/dual_arm_demo/dual_arm_demo.egg-info/entry_points.txt
+[0.991s] writing requirements to ../../build/dual_arm_demo/dual_arm_demo.egg-info/requires.txt
+[0.991s] writing top-level names to ../../build/dual_arm_demo/dual_arm_demo.egg-info/top_level.txt
+[1.023s] reading manifest file '../../build/dual_arm_demo/dual_arm_demo.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../../build/dual_arm_demo/dual_arm_demo.egg-info/SOURCES.txt'
+[1.024s] running build
+[1.024s] running build_py
+[1.024s] running install
+[1.029s] running install_lib
+[1.046s] running install_data
+[1.046s] copying launch/dual_arm_rviz.launch.py -> /home/look/ros2_ws/install/dual_arm_demo/share/dual_arm_demo/launch
+[1.047s] running install_egg_info
+[1.063s] removing '/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.064s] Copying ../../build/dual_arm_demo/dual_arm_demo.egg-info to /home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages/dual_arm_demo-0.0.0-py3.12.egg-info
+[1.065s] running install_scripts
+[1.171s] Installing dual_arm_publisher script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.171s] Installing getAB script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.171s] Installing joint_points_player script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.172s] Installing pvt_player script to /home/look/ros2_ws/install/dual_arm_demo/lib/dual_arm_demo
+[1.172s] writing list of installed files to '/home/look/ros2_ws/build/dual_arm_demo/install.log'
+[1.196s] Invoked command in '/home/look/ros2_ws/src/dual_arm_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/look/ros2_ws/build/dual_arm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/look/ros2_ws/install/dual_arm_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_arm_demo build --build-base /home/look/ros2_ws/build/dual_arm_demo/build install --record /home/look/ros2_ws/build/dual_arm_demo/install.log --single-version-externally-managed install_data

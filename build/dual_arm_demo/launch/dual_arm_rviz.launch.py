@@ -1,0 +1,1 @@
+/home/look/ros2_ws/src/dual_arm_demo/launch/dual_arm_rviz.launch.py
