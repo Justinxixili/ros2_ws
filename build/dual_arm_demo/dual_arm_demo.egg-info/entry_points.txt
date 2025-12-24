@@ -1,5 +1,0 @@
-[console_scripts]
-dual_arm_publisher = dual_arm_demo.dual_arm_publisher:main
-getAB = dual_arm_demo.getAB:main
-joint_points_player = dual_arm_demo.joint_points_player:main
-pvt_player = dual_arm_demo.pvt_player:main
