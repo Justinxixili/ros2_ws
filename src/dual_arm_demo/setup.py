@@ -15,6 +15,8 @@ setup(
     # 安装 launch 文件
     ('share/' + package_name + '/launch', [
         'launch/dual_arm_rviz.launch.py',
+        'launch/dual_arm_sim.launch.py',
+        'launch/dual_arm_real.launch.py',
     ]),
 
     # 安装 urdf
